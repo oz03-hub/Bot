@@ -1,0 +1,32 @@
+{
+  "name": "ts",
+  "version": "1.0.0",
+  "description": "Discord Bot in TypeScript",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node -r dotenv/config ./prod/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/oz03-hub/Bot.git"
+  },
+  "author": "Ozel Yilmazel",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/oz03-hub/Bot/issues"
+  },
+  "homepage": "https://github.com/oz03-hub/Bot#readme",
+  "dependencies": {
+    "@discordjs/builders": "^1.6.3",
+    "@discordjs/rest": "^1.7.1",
+    "discord-api-types": "^0.37.41",
+    "discord.js": "^14.10.2",
+    "dotenv": "^16.0.3",
+    "mongoose": "^7.1.0"
+  },
+  "devDependencies": {
+    "@types/node": "^18.16.3",
+    "typescript": "^5.0.4"
+  }
+}
